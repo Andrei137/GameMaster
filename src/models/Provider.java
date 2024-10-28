@@ -42,8 +42,15 @@ public final class Provider extends User implements Crud<Provider>, ProfileEdit,
 
 
     // Other members
-    private final String[] filters = {"game", "dlc"};
-    private final String[] sortOptions = {"Name", "Price", "Release date"};
+    private final String[] filters = {
+        "game", 
+        "dlc"
+    };
+    private final String[] sortOptions = {
+        "Name", 
+        "Price", 
+        "Release date"
+    };
     private Integer filterIndex = 0;
     private Integer sortIndex = 0;
 

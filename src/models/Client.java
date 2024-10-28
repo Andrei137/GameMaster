@@ -36,8 +36,15 @@ public final class Client extends User implements Crud<Client>, ProfileEdit, Pro
 
 
     // Other members
-    private final String[] filters = {"game", "dlc"};
-    private final String[] sortOptions = {"Name", "Price", "Release date"};
+    private final String[] filters = {
+        "game", 
+        "dlc"
+    };
+    private final String[] sortOptions = {
+        "Name", 
+        "Price", 
+        "Release date"
+    };
     private Integer filterIndex = 0;
     private Integer sortIndex = 0;
 
